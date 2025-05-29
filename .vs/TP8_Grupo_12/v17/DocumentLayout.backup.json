@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E68AB79B-DF9F-416C-ABA4-DA2892A03806}|Entidades\\Entidades.csproj|e:\\usuarios\\noodledit\\desktop\\tup\\tercer cuatrimestre\\programacion iii\\tps\\trabajo-practico-nro-8\\tp8_grupo_12\\entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68AB79B-DF9F-416C-ABA4-DA2892A03806}|Entidades\\Entidades.csproj|solutionrelative:entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9930424-3FE6-4097-89A4-672D4C28AD6B}|Gestor\\Gestor.csproj|E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\gestor\\gestorsucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9930424-3FE6-4097-89A4-672D4C28AD6B}|Gestor\\Gestor.csproj|solutionrelative:gestor\\gestorsucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\gestiondesucursales\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|solutionrelative:gestiondesucursales\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\gestiondesucursales\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|solutionrelative:gestiondesucursales\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\gestiondesucursales\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|solutionrelative:gestiondesucursales\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\datos\\daosucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|solutionrelative:datos\\daosucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\datos\\accsesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|solutionrelative:datos\\accsesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\Entidades\\Sucursal.cs",
+              "RelativeDocumentMoniker": "Entidades\\Sucursal.cs",
+              "ToolTip": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\Entidades\\Sucursal.cs",
+              "RelativeToolTip": "Entidades\\Sucursal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:49:22.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestorSucursales.cs",
+              "DocumentMoniker": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\Gestor\\GestorSucursales.cs",
+              "RelativeDocumentMoniker": "Gestor\\GestorSucursales.cs",
+              "ToolTip": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\Gestor\\GestorSucursales.cs",
+              "RelativeToolTip": "Gestor\\GestorSucursales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:48:51.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DaoSucursales.cs",
+              "DocumentMoniker": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\Datos\\DaoSucursales.cs",
+              "RelativeDocumentMoniker": "Datos\\DaoSucursales.cs",
+              "ToolTip": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\Datos\\DaoSucursales.cs",
+              "RelativeToolTip": "Datos\\DaoSucursales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:35:26.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccsesoDatos.cs",
+              "DocumentMoniker": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\Datos\\AccsesoDatos.cs",
+              "RelativeDocumentMoniker": "Datos\\AccsesoDatos.cs",
+              "ToolTip": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\Datos\\AccsesoDatos.cs",
+              "RelativeToolTip": "Datos\\AccsesoDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:34:55.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EliminarSucursales.aspx",
+              "DocumentMoniker": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\GestionDeSucursales\\EliminarSucursales.aspx",
+              "RelativeDocumentMoniker": "GestionDeSucursales\\EliminarSucursales.aspx",
+              "ToolTip": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\GestionDeSucursales\\EliminarSucursales.aspx",
+              "RelativeToolTip": "GestionDeSucursales\\EliminarSucursales.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-29T15:31:38.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListadoSucursales.aspx",
+              "DocumentMoniker": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\GestionDeSucursales\\ListadoSucursales.aspx",
+              "RelativeDocumentMoniker": "GestionDeSucursales\\ListadoSucursales.aspx",
+              "ToolTip": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\GestionDeSucursales\\ListadoSucursales.aspx",
+              "RelativeToolTip": "GestionDeSucursales\\ListadoSucursales.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-29T15:31:27.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgregarSucursal.aspx",
+              "DocumentMoniker": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\GestionDeSucursales\\AgregarSucursal.aspx",
+              "RelativeDocumentMoniker": "GestionDeSucursales\\AgregarSucursal.aspx",
+              "ToolTip": "E:\\Usuarios\\Noodledit\\Desktop\\Tup\\Tercer Cuatrimestre\\Programacion III\\TPs\\Trabajo-Practico-Nro-8\\TP8_Grupo_12\\GestionDeSucursales\\AgregarSucursal.aspx",
+              "RelativeToolTip": "GestionDeSucursales\\AgregarSucursal.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-29T15:29:56.411Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
