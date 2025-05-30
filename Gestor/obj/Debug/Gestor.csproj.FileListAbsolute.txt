@@ -1,0 +1,11 @@
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\bin\Debug\Gestor.dll
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\bin\Debug\Gestor.pdb
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\bin\Debug\Datos.dll
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\bin\Debug\Entidades.dll
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\bin\Debug\Datos.pdb
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\bin\Debug\Entidades.pdb
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\obj\Debug\Gestor.csproj.AssemblyReference.cache
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\obj\Debug\Gestor.csproj.CoreCompileInputs.cache
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\obj\Debug\Gestor.csproj.Up2Date
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\obj\Debug\Gestor.dll
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Gestor\obj\Debug\Gestor.pdb

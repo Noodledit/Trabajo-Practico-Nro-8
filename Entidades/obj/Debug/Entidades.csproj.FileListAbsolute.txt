@@ -1,0 +1,6 @@
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Entidades\bin\Debug\Entidades.dll
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Entidades\obj\Debug\Entidades.dll
+C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp8\Entidades\obj\Debug\Entidades.pdb

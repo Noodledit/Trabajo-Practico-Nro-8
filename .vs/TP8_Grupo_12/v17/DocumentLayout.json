@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\",
+  "WorkspaceRootPath": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E68AB79B-DF9F-416C-ABA4-DA2892A03806}|Entidades\\Entidades.csproj|c:\\repositorios github\\trabajo-practico-nro-8\\entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E68AB79B-DF9F-416C-ABA4-DA2892A03806}|Entidades\\Entidades.csproj|c:\\users\\valen\\desktop\\valen\\universidad\\programacion 3\\u1\\tp8\\entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E68AB79B-DF9F-416C-ABA4-DA2892A03806}|Entidades\\Entidades.csproj|solutionrelative:entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9930424-3FE6-4097-89A4-672D4C28AD6B}|Gestor\\Gestor.csproj|C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\gestor\\gestorsucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9930424-3FE6-4097-89A4-672D4C28AD6B}|Gestor\\Gestor.csproj|C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\gestor\\gestorsucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9930424-3FE6-4097-89A4-672D4C28AD6B}|Gestor\\Gestor.csproj|solutionrelative:gestor\\gestorsucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\gestiondesucursales\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\gestiondesucursales\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|solutionrelative:gestiondesucursales\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\gestiondesucursales\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\gestiondesucursales\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|solutionrelative:gestiondesucursales\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\gestiondesucursales\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\gestiondesucursales\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{AD759D07-F6EA-4293-A0F7-7BF84224F10C}|GestionDeSucursales\\GestionDeSucursales.csproj|solutionrelative:gestiondesucursales\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\datos\\daosucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\datos\\daosucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|solutionrelative:datos\\daosucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\datos\\accsesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\datos\\accsesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8BF9F82-10F1-44BC-9728-AD8B17F81B52}|Datos\\Datos.csproj|solutionrelative:datos\\accsesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,17 +38,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Sucursal.cs",
-              "DocumentMoniker": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\Entidades\\Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\Entidades\\Sucursal.cs",
               "RelativeDocumentMoniker": "Entidades\\Sucursal.cs",
-              "ToolTip": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\Entidades\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\Entidades\\Sucursal.cs",
               "RelativeToolTip": "Entidades\\Sucursal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T15:49:22.357Z",
               "EditorCaption": ""
@@ -57,9 +73,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GestorSucursales.cs",
-              "DocumentMoniker": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\Gestor\\GestorSucursales.cs",
+              "DocumentMoniker": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\Gestor\\GestorSucursales.cs",
               "RelativeDocumentMoniker": "Gestor\\GestorSucursales.cs",
-              "ToolTip": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\Gestor\\GestorSucursales.cs",
+              "ToolTip": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\Gestor\\GestorSucursales.cs",
               "RelativeToolTip": "Gestor\\GestorSucursales.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -69,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "DaoSucursales.cs",
-              "DocumentMoniker": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\Datos\\DaoSucursales.cs",
+              "DocumentMoniker": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\Datos\\DaoSucursales.cs",
               "RelativeDocumentMoniker": "Datos\\DaoSucursales.cs",
-              "ToolTip": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\Datos\\DaoSucursales.cs",
+              "ToolTip": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\Datos\\DaoSucursales.cs",
               "RelativeToolTip": "Datos\\DaoSucursales.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AccsesoDatos.cs",
-              "DocumentMoniker": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\Datos\\AccsesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\Datos\\AccsesoDatos.cs",
               "RelativeDocumentMoniker": "Datos\\AccsesoDatos.cs",
-              "ToolTip": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\Datos\\AccsesoDatos.cs",
+              "ToolTip": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\Datos\\AccsesoDatos.cs",
               "RelativeToolTip": "Datos\\AccsesoDatos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "EliminarSucursales.aspx",
-              "DocumentMoniker": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\GestionDeSucursales\\EliminarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\GestionDeSucursales\\EliminarSucursales.aspx",
               "RelativeDocumentMoniker": "GestionDeSucursales\\EliminarSucursales.aspx",
-              "ToolTip": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\GestionDeSucursales\\EliminarSucursales.aspx",
+              "ToolTip": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\GestionDeSucursales\\EliminarSucursales.aspx",
               "RelativeToolTip": "GestionDeSucursales\\EliminarSucursales.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -105,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ListadoSucursales.aspx",
-              "DocumentMoniker": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\GestionDeSucursales\\ListadoSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\GestionDeSucursales\\ListadoSucursales.aspx",
               "RelativeDocumentMoniker": "GestionDeSucursales\\ListadoSucursales.aspx",
-              "ToolTip": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\GestionDeSucursales\\ListadoSucursales.aspx",
+              "ToolTip": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\GestionDeSucursales\\ListadoSucursales.aspx",
               "RelativeToolTip": "GestionDeSucursales\\ListadoSucursales.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -117,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AgregarSucursal.aspx",
-              "DocumentMoniker": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\GestionDeSucursales\\AgregarSucursal.aspx",
+              "DocumentMoniker": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\GestionDeSucursales\\AgregarSucursal.aspx",
               "RelativeDocumentMoniker": "GestionDeSucursales\\AgregarSucursal.aspx",
-              "ToolTip": "C:\\Repositorios GitHub\\Trabajo-Practico-Nro-8\\GestionDeSucursales\\AgregarSucursal.aspx",
+              "ToolTip": "C:\\Users\\Valen\\Desktop\\Valen\\Universidad\\Programacion 3\\U1\\tp8\\GestionDeSucursales\\AgregarSucursal.aspx",
               "RelativeToolTip": "GestionDeSucursales\\AgregarSucursal.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
