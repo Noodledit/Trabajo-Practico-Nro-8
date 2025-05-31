@@ -1,0 +1,6 @@
+C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.pdb
