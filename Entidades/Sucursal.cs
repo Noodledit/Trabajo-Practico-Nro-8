@@ -6,7 +6,36 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Sucursal
+    internal class Sucursal
     {
+        private int IdSucursal;
+        private int IdProvinciaSucursal;
+        private String NombreSucursal;
+        // Faltan mas atributos
+
+        public int getIdSucursal()
+        {
+            return IdSucursal;
+        }
+        public void setIdSucursal(int idSucursal)
+        {
+            IdSucursal = idSucursal;
+        }
+        public int getIdProvinciaSucursal()
+        {
+            return IdProvinciaSucursal;
+        }
+        public void setIdProvinciaSucursal(int idProvinciaSucursal)
+        {
+            IdProvinciaSucursal = idProvinciaSucursal;
+        }
+        public String getNombre()
+        {
+            return NombreSucursal;
+        }
+        public void setNombre(string nombre)
+        {
+            NombreSucursal = nombre;
+        }
     }
 }
