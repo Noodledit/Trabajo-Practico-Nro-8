@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    internal class Sucursal
+    public class Sucursal
     {
         private int IdSucursal;
         private int IdProvinciaSucursal;
-        private String NombreSucursal;
+        private string NombreSucursal;
+        private string Descripcion;
+        private string Direccion;
         // Faltan mas atributos
 
         public int getIdSucursal()
@@ -29,13 +31,31 @@ namespace Entidades
         {
             IdProvinciaSucursal = idProvinciaSucursal;
         }
-        public String getNombre()
+        public string getNombre()
         {
             return NombreSucursal;
         }
         public void setNombre(string nombre)
         {
             NombreSucursal = nombre;
+        }
+        public string getDescripcion()
+        {
+            return Descripcion;
+        }
+        public void setDescripcion(string descripcion)
+        {
+            Descripcion = descripcion;
+        }
+
+        public string getDireccion()
+        {
+            return Direccion;
+        }
+
+        public void setDireccion(string direccion)
+        {
+            Direccion = direccion;
         }
     }
 }
