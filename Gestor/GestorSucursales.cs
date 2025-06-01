@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entidades;
+using Datos;
 
 namespace Gestor
 {
@@ -14,7 +15,6 @@ namespace Gestor
 
         protected void AgregarSucursal(string nombre, string descripcion, int provincia, string direccion)
         {
-
             Sucursal sucursal = new Sucursal();
 
             sucursal.setNombre(nombre);
@@ -24,6 +24,18 @@ namespace Gestor
 
             //Aqui va la Comunicacion con Datos
            
+        }
+        protected bool EliminarSucursal(int idSucursal)
+        {
+            DaoSucursales dao = new DaoSucursales();
+            Sucursal sucursal = new Sucursal();
+            sucursal.setIdSucursal(idSucursal);
+            
+            int op = dao.EliminarSucursal(sucursal);
+            if (op == 1)
+                return true;
+            else
+                return false;
         }
 
 
