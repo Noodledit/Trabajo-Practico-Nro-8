@@ -10,3 +10,9 @@ E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Traba
 E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Entidades\obj\Debug\Entidades.dll
 E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Entidades\obj\Debug\Entidades.pdb
+C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Entidades\bin\Debug\Entidades.dll
+C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Entidades\bin\Debug\Entidades.pdb
+C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.dll
+C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.pdb
