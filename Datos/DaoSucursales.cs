@@ -47,16 +47,26 @@ namespace Datos
             return ds.EjecutarConsulta(query, parametros);
         }
 
-        public DataTable ListarSucursales()
+        public DataTable ListarSucursales(string IdSucursal = null)
         {
-            string query = "SELECT * FROM Sucursal";
-            return ds.EjecutarConsultaDataAdapter(query);
-        }
+            string query = "SELECT Id_Sucursal, NombreSucursal, DescripcionSucursal, DescripcionProvincia, DireccionSucursal " +
+                "FROM Sucursal " +
+                "INNER JOIN Provincia " +
+                "ON Sucursal.Id_ProvinciaSucursal = Provincia.Id_Provincia";
 
-        public string GetFiltrarSucursalQuery()
-        {
-            return "SELECT S.Id_Sucursal, S.NombreSucursal, S.DescripcionSucursal, S.Id_ProvinciaSucursal, S.DireccionSucursal, P.DescripcionProvincia " +
-                   "FROM Sucursal S INNER JOIN Provincia P ON S.Id_ProvinciaSucursal = P.Id_Provincia WHERE S.Id_Sucursal = @IdSucursal";
+            SqlParameter parametro = new SqlParameter();
+
+            if (IdSucursal != null)
+            {
+                query += " WHERE Id_Sucursal = @IdSucursal";
+                parametro = new SqlParameter("@IdSucursal", IdSucursal);
+            }
+            else
+            {
+                parametro = null;
+            }
+
+            return ds.EjecutarConsultaDataAdapter(query, parametro);
         }
     }
 }

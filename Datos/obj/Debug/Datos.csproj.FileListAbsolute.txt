@@ -34,3 +34,12 @@ C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.cspro
 C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.csproj.Up2Date
 C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.dll
 C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.pdb
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\bin\Debug\Datos.dll
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\bin\Debug\Datos.pdb
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\bin\Debug\Entidades.dll
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\bin\Debug\Entidades.pdb
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.csproj.Up2Date
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.dll
+E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.pdb

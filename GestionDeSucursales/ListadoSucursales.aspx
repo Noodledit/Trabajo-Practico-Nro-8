@@ -85,7 +85,7 @@
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Provincia">
                     <ItemTemplate>
-                        <asp:Label ID="lblProvinciaSucursal" runat="server" Text='<%# Bind("Id_ProvinciaSucursal") %>'></asp:Label>
+                        <asp:Label ID="lblProvinciaSucursal" runat="server" Text='<%# Bind("DescripcionProvincia") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Dirección">
