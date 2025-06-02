@@ -31,3 +31,14 @@ C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Gestor\obj\
 C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
 C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
 C:\Users\camim\OneDrive\Escritorio\New folder\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Gestor.dll
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Gestor.pdb
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Datos.dll
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Entidades.dll
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Datos.pdb
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Entidades.pdb
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
+C:\Users\user\Desktop\Carpeta\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb

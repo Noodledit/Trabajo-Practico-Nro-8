@@ -43,14 +43,20 @@ namespace Datos
                 new SqlParameter("@Descripcion", sucursal.getDescripcion()),
                 new SqlParameter("@Direccion", sucursal.getDireccion())
                 };
-            
-            return ds.EjecutarConsulta(query,parametros);
+
+            return ds.EjecutarConsulta(query, parametros);
         }
 
         public DataTable ListarSucursales()
         {
             string query = "SELECT * FROM Sucursal";
             return ds.EjecutarConsultaDataAdapter(query);
+        }
+
+        public string GetFiltrarSucursalQuery()
+        {
+            return "SELECT S.Id_Sucursal, S.NombreSucursal, S.DescripcionSucursal, S.Id_ProvinciaSucursal, S.DireccionSucursal, P.DescripcionProvincia " +
+                   "FROM Sucursal S INNER JOIN Provincia P ON S.Id_ProvinciaSucursal = P.Id_Provincia WHERE S.Id_Sucursal = @IdSucursal";
         }
     }
 }

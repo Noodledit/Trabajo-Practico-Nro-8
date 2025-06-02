@@ -11,18 +11,18 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 80px;
+            width: 217px;
             height: 23px;
         }
         .auto-style3 {
-            width: 157px;
-            height: 23px;
-        }
-        .auto-style4 {
-            width: 197px;
+            width: 238px;
             height: 23px;
         }
         .auto-style5 {
+            height: 23px;
+        }
+        .auto-style6 {
+            width: 325px;
             height: 23px;
         }
     </style>
@@ -35,41 +35,35 @@
     <td class="auto-style2"></td>
     
     <td class="auto-style3">
-        <asp:HyperLink ID="hlAgregarSucursal" runat="server" 
-            NavigateUrl="#AgregarSucursal" 
-            ForeColor="Blue"
-            Text="Agregar Sucursal">
-        </asp:HyperLink>
+                        <asp:HyperLink ID="hlAgregarSucursal" runat="server" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
     </td>
     
-    <td class="auto-style4">
-        <asp:HyperLink ID="hlListadoDeSucursales" runat="server" 
-            NavigateUrl="#ListadoDeSucursales" 
-            ForeColor="Blue"
-            Text="Listado De Sucursales">
-        </asp:HyperLink>
+    <td class="auto-style6">
+                        <asp:HyperLink ID="hlListadoSucursal" runat="server" NavigateUrl="~/ListadoSucursales.aspx">Listado de Sucursales</asp:HyperLink>
     </td>
     
     <td class="auto-style5">
-        <asp:HyperLink ID="hlEliminarSucursal" runat="server" 
-            NavigateUrl="#EliminarSucursal" 
-            ForeColor="Blue"
-            Text="Eliminar sucursal">
-        </asp:HyperLink>
+                        <asp:HyperLink ID="hlEliminarSucursal" runat="server" NavigateUrl="~/EliminarSucursales.aspx">Eliminar Sucursal</asp:HyperLink>
     </td>
 </tr>
             </table>
         </div>
         <asp:Label ID="lblListadoSucursales" runat="server" Font-Bold="True" Font-Size="23pt" Text="Listado de sucursales"></asp:Label>
         <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="lblNoResultados" runat="server"></asp:Label>
         <br />
         <asp:Label ID="lblBuscarIdSucursal" runat="server" Text="Busqueda Ingrese Id Sucursal:"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtbBuscarSucursales" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnFiltrar" runat="server" Height="20px" Text="Filtrar" />
+        <asp:RegularExpressionValidator ID="revIdSucursal" runat="server" ControlToValidate="txtbBuscarSucursales" ForeColor="#CC0000" ValidationExpression="^[0-9]+$">Debe ingresar un ID valido</asp:RegularExpressionValidator>
+&nbsp;&nbsp; &nbsp;
+        <asp:Button ID="btnFiltrar" runat="server" Height="20px" Text="Filtrar" OnClick="btnFiltrar_Click" />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnMostrarTodo" runat="server" Height="21px" Text="Mostrar todo" />
+        <asp:Button ID="btnMostrarTodo" runat="server" Height="21px" Text="Mostrar todo" OnClick="btnMostrarTodo_Click" />
         <br />
         <br />
         <asp:GridView ID="gvSucursales" runat="server" AutoGenerateColumns="False">
