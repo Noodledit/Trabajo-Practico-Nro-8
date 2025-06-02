@@ -9,3 +9,14 @@ C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug
 C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
 C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
 C:\Users\Nacho\Documents\git\TP8-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\bin\Debug\Gestor.dll
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\bin\Debug\Gestor.pdb
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\bin\Debug\Datos.dll
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\bin\Debug\Entidades.dll
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\bin\Debug\Datos.pdb
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\bin\Debug\Entidades.pdb
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\obj\Debug\Gestor.csproj.AssemblyReference.cache
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\obj\Debug\Gestor.csproj.CoreCompileInputs.cache
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\obj\Debug\Gestor.csproj.Up2Date
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\obj\Debug\Gestor.dll
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\TP8_Grupo_12\Gestor\obj\Debug\Gestor.pdb
