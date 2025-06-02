@@ -26,7 +26,7 @@ namespace GestionDeSucursales
                 ddlProvincia.DataValueField = "Id_Provincia";
                 ddlProvincia.DataTextField = "DescripcionProvincia";
                 ddlProvincia.DataBind();
-                ddlProvincia.Items.Insert(0, new ListItem("Seleccione una provincia", "0"));
+                ddlProvincia.Items.Insert(0, new ListItem("--Seleccionar--", "0"));
             }
 
         }
