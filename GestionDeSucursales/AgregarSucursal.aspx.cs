@@ -1,5 +1,9 @@
-﻿using System;
+﻿using Gestor;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -14,13 +18,22 @@ namespace GestionDeSucursales
 
             ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
 
+            if (!IsPostBack)
+            {
+                GestorProvincias gestor = new GestorProvincias();
+                DataTable provincias = gestor.ObtenerProbincias();
+                ddlProvincia.DataSource = provincias;
+                ddlProvincia.DataValueField = "Id_Provincia";
+                ddlProvincia.DataTextField = "DescripcionProvincia";
+                ddlProvincia.DataBind();
+                ddlProvincia.Items.Insert(0, new ListItem("Seleccione una provincia", "0"));
+            }
+
         }
 
         protected void ddlProvincia_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-
-
+            int idProvincia = Convert.ToInt32(ddlProvincia.SelectedValue);
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)

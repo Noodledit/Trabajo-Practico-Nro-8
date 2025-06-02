@@ -43,3 +43,12 @@ E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.csproj.Up2Date
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.dll
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.pdb
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\bin\Debug\Datos.dll
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\bin\Debug\Datos.pdb
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\bin\Debug\Entidades.dll
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\bin\Debug\Entidades.pdb
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.csproj.Up2Date
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.dll
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Datos\obj\Debug\Datos.pdb
