@@ -12,22 +12,45 @@ namespace Datos
 
         AccsesoDatos ds = new AccsesoDatos();
 
-        public Sucursal getSucursal(Sucursal suc)
+        public Sucursal getSucursal(int IdSucursal)
         {
-            SqlDataAdapter adapter = ds.EjecutarConsultaDataAdapter("SELECT * FROM Sucursal WHERE Id_Sucursal = " + suc.getIdSucursal());
-            DataTable tabla = new DataTable();
-            adapter.Fill(tabla);
+            Sucursal sucursal = new Sucursal();
 
-            suc.setIdSucursal(Convert.ToInt32(tabla.Rows[0][0].ToString()));
-            suc.setIdProvinciaSucursal(Convert.ToInt32(tabla.Rows[0][1]));
-            suc.setNombre(tabla.Rows[0][2].ToString());
-            return suc;
+            SqlParameter parametros = new SqlParameter("@IdSucursal", IdSucursal);
+
+            DataTable tabla = ds.EjecutarConsultaDataAdapter("SELECT * FROM Sucursal WHERE Id_Sucursal = @IdSucursal", parametros);
+
+            sucursal.setIdSucursal(Convert.ToInt32(tabla.Rows[0][0].ToString()));
+            sucursal.setIdProvinciaSucursal(Convert.ToInt32(tabla.Rows[0][1]));
+            sucursal.setNombre(tabla.Rows[0][2].ToString());
+            return sucursal;
         }
         public int EliminarSucursal(Sucursal sucursal)
         {
-            string query = $"DELETE FROM Sucursal WHERE Id_Sucursal = {sucursal.getIdSucursal()}";
-            return ds.EjecutarConsulta(query);
+            string query = "DELETE FROM Sucursal WHERE Id_Sucursal = @IdSucursal";
+            SqlParameter[] parametros = new SqlParameter[] { new SqlParameter("@IdSucursal", sucursal.getIdSucursal()) };
+            return ds.EjecutarConsulta(query, parametros);
         }
 
+        public int InsertarSucursal(Sucursal sucursal)
+        {
+            string query = "INSERT INTO Sucursal (Id_Provincia_Sucursal, Nombre_Sucursal, Descripcion, Direccion) "
+                            + "VALUES (@IdProvinciaSucursal, @NombreSucursal, @Descripcion, @Direccion)";
+            SqlParameter[] parametros = new SqlParameter[]
+                {
+                new SqlParameter("@IdProvinciaSucursal", sucursal.getIdProvinciaSucursal()),
+                new SqlParameter("@NombreSucursal", sucursal.getNombre()),
+                new SqlParameter("@Descripcion", sucursal.getDescripcion()),
+                new SqlParameter("@Direccion", sucursal.getDireccion())
+                };
+            
+            return ds.EjecutarConsulta(query,parametros);
+        }
+
+        public DataTable ListarSucursales()
+        {
+            string query = "SELECT * FROM Sucursal";
+            return ds.EjecutarConsultaDataAdapter(query);
+        }
     }
 }

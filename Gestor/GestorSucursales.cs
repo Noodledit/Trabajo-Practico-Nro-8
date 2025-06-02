@@ -5,15 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Entidades;
 using Datos;
+using System.Data;
 
 namespace Gestor
 {
     public class GestorSucursales
     {
-       
-
-
-        protected void AgregarSucursal(string nombre, string descripcion, int provincia, string direccion)
+        public void AgregarSucursal(string nombre, string descripcion, int provincia, string direccion)
         {
             Sucursal sucursal = new Sucursal();
 
@@ -25,7 +23,7 @@ namespace Gestor
             //Aqui va la Comunicacion con Datos
            
         }
-        protected bool EliminarSucursal(int idSucursal)
+        public bool EliminarSucursal(int idSucursal)
         {
             DaoSucursales dao = new DaoSucursales();
             Sucursal sucursal = new Sucursal();
@@ -38,6 +36,10 @@ namespace Gestor
                 return false;
         }
 
-
+         public DataTable ObtenerTabla()
+        {
+            DaoSucursales dao = new DaoSucursales();
+            return dao.ListarSucursales();
+        }
     }
 }

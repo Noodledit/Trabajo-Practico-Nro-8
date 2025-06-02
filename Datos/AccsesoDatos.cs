@@ -11,7 +11,7 @@ namespace Datos
 {
     public class AccsesoDatos
     {
-        private string connectionString = "Data Source=localhost;Initial Catalog=BDSucursales;Integrated Security=True";
+        private string connectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=BDSucursales;Integrated Security=True";
 
         private SqlConnection connection()
         {
@@ -23,7 +23,17 @@ namespace Datos
             }
             catch (Exception ex)
             {
-                return null;
+                try
+                {
+                    string AuxConnectionString = connectionString.Replace("\\sqlexpress","");
+                    SqlConnection cnxn = new SqlConnection(connectionString);
+                    cnxn.Open();
+                    return cnxn;
+                }
+                catch
+                {
+                    return null;
+                }
             }
         }
 
@@ -40,13 +50,14 @@ namespace Datos
             }
         }
 
-        public int EjecutarConsulta(string query)
+        public int EjecutarConsulta(string query, SqlParameter[] parametros)
         {
             try
             {
                 using (SqlCommand cmd = sqlCommand(query, connection()))
                 {                                        
                     if (cmd == null) return -1;
+                    cmd.Parameters.AddRange(parametros);
                     int FilasAfectadas = cmd.ExecuteNonQuery();
                     return FilasAfectadas;
                 }
@@ -57,17 +68,23 @@ namespace Datos
             }
         }
 
-        public SqlDataAdapter EjecutarConsultaDataAdapter(string query)
+        public DataTable EjecutarConsultaDataAdapter(string query, SqlParameter parametro = null)
         {
             try
             {
                 using (SqlCommand cmd = sqlCommand(query, connection()))
                 {
                     if (cmd == null) return null;
+
+                    if (parametro != null)
+                    {
+                        cmd.Parameters.Add(parametro);
+                    }
+
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataTable tabla = new DataTable();
                     adapter.Fill(tabla);
-                    return adapter;
+                    return tabla;
                 }
             }
             catch (Exception ex)
