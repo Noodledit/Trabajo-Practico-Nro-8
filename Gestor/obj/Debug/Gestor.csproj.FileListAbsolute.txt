@@ -53,3 +53,14 @@ E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Gestor\ob
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Gestor.dll
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Gestor.pdb
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Datos.dll
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Entidades.dll
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Datos.pdb
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Entidades.pdb
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.AssemblyReference.cache
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.CoreCompileInputs.cache
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
+C:\Users\Nacho\Documents\git\TP6-Grupo12\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb
