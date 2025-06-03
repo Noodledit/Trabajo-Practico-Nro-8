@@ -11,7 +11,7 @@ namespace Gestor
 {
     public class GestorProvincias
     {
-        public DataTable ObtenerProbincias()
+        public DataTable ObtenerProvincias()
         {
             DaoProvincias dao = new DaoProvincias();
             return dao.ListarProvincias();
