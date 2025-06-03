@@ -34,19 +34,18 @@ namespace Datos
 
         public int InsertarSucursal(Sucursal sucursal)
         {
-            string query = "INSERT INTO Sucursal (Id_Provincia_Sucursal, Nombre_Sucursal, Descripcion, Direccion) "
-                            + "VALUES (@IdProvinciaSucursal, @NombreSucursal, @Descripcion, @Direccion)";
+            string query = "INSERT INTO Sucursal (Id_ProvinciaSucursal, NombreSucursal, DescripcionSucursal, DireccionSucursal) " +
+                           "VALUES (@IdProvinciaSucursal, @NombreSucursal, @DescripcionSucursal, @DireccionSucursal)"; // Modifique nombres de columnas para que coincidan con la base de datos
             SqlParameter[] parametros = new SqlParameter[]
-                {
-                new SqlParameter("@IdProvinciaSucursal", sucursal.getIdProvinciaSucursal()),
-                new SqlParameter("@NombreSucursal", sucursal.getNombre()),
-                new SqlParameter("@Descripcion", sucursal.getDescripcion()),
-                new SqlParameter("@Direccion", sucursal.getDireccion())
-                };
+            {
+        new SqlParameter("@IdProvinciaSucursal", sucursal.getIdProvinciaSucursal()),
+        new SqlParameter("@NombreSucursal", sucursal.getNombre()),
+        new SqlParameter("@DescripcionSucursal", sucursal.getDescripcion()),
+        new SqlParameter("@DireccionSucursal", sucursal.getDireccion())
+            };
 
             return ds.EjecutarConsulta(query, parametros);
         }
-
         public DataTable ListarSucursales(string IdSucursal = null)
         {
             string query = "SELECT Id_Sucursal, NombreSucursal, DescripcionSucursal, DescripcionProvincia, DireccionSucursal " +

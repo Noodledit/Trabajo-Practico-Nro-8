@@ -38,7 +38,28 @@ namespace GestionDeSucursales
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
+            GestorSucursales gestor = new GestorSucursales();
+            string nombre = txtNombreSucursal.Text.Trim();
+            string descripcion = txtDescripcion.Text.Trim();
+            int provincia = Convert.ToInt32(ddlProvincia.SelectedValue);
+            string direccion = TxtDireccion.Text.Trim();
 
+            bool resultado = gestor.AgregarSucursal(nombre, descripcion, provincia, direccion);
+
+            if (resultado)
+            {
+                lblMensaje.Text = "Sucursal agregada correctamente.";
+                lblMensaje.ForeColor = System.Drawing.Color.Green;
+                txtNombreSucursal.Text = string.Empty;
+                txtDescripcion.Text = string.Empty;
+                TxtDireccion.Text = string.Empty;
+                ddlProvincia.SelectedIndex = 0;
+            }
+            else
+            {
+                lblMensaje.Text = "La sucursal ya existe u ocurrió un error.";
+                lblMensaje.ForeColor = System.Drawing.Color.Red;
+            }
         }
     }
 }

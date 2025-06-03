@@ -21,10 +21,15 @@ namespace GestionDeSucursales
 
             if (!IsPostBack)
             {
-                DataTable tabla = gestor.ObtenerTabla();
-                gvSucursales.DataSource = tabla;
-                gvSucursales.DataBind();
+            llenarTabla();
             }
+        }
+        // Cree el metodo llenarTabla para que se llene la tabla al cargar la pagina.
+        private void llenarTabla()
+        {
+            DataTable tabla = gestor.ObtenerTabla();
+            gvSucursales.DataSource = tabla;
+            gvSucursales.DataBind();
         }
         protected void btnMostrarTodo_Click(object sender, EventArgs e)
         {

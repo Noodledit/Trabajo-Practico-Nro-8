@@ -112,7 +112,9 @@
                     <td class="auto-style10">
                         <asp:RequiredFieldValidator ID="rfvNombreSucursal" runat="server" ControlToValidate="txtNombreSucursal" ForeColor="Red">Debe ingresar un nombre de sucursal</asp:RequiredFieldValidator>
                     </td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style5">
+                        <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+                    </td>
                     <td class="auto-style11">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
@@ -123,10 +125,10 @@
                     <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style3">Descripción:</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="txtDescripción" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox>
                     </td>
                     <td class="auto-style10">
-                        <asp:RequiredFieldValidator ID="rfvDescripción" runat="server" ControlToValidate="txtDescripción" ForeColor="Red">Debe ingresar una descripción</asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rfvDescripción" runat="server" ControlToValidate="txtDescripcion" ForeColor="Red">Debe ingresar una descripción</asp:RequiredFieldValidator>
                     </td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style11">&nbsp;</td>

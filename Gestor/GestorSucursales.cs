@@ -11,7 +11,7 @@ namespace Gestor
 {
     public class GestorSucursales
     {
-        public void AgregarSucursal(string nombre, string descripcion, int provincia, string direccion)
+        public bool AgregarSucursal(string nombre, string descripcion, int provincia, string direccion) // cambie a bool para que devuelva verdadero o falso.
         {
             Sucursal sucursal = new Sucursal();
 
@@ -21,7 +21,13 @@ namespace Gestor
             sucursal.setDireccion(direccion);
 
             //Aqui va la Comunicacion con Datos
-           
+           DaoSucursales dao = new DaoSucursales();
+            int op = dao.InsertarSucursal(sucursal);
+            if (op == 1)
+                return true;
+            else
+                return false;
+
         }
         public bool EliminarSucursal(int idSucursal)
         {
