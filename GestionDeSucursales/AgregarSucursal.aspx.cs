@@ -21,7 +21,7 @@ namespace GestionDeSucursales
             if (!IsPostBack)
             {
                 GestorProvincias gestor = new GestorProvincias();
-                DataTable provincias = gestor.ObtenerProbincias();
+                DataTable provincias = gestor.ObtenerProvincias();
                 ddlProvincia.DataSource = provincias;
                 ddlProvincia.DataValueField = "Id_Provincia";
                 ddlProvincia.DataTextField = "DescripcionProvincia";
