@@ -19,6 +19,7 @@
         }
         .auto-style7 {
             font-size: xx-large;
+            height: 40px;
         }
         .auto-style8 {
             width: 248px;
@@ -87,6 +88,25 @@
             width: 112px;
             height: 1px;
         }
+        .auto-style33 {
+            width: 53px;
+            height: 40px;
+        }
+        .auto-style34 {
+            width: 92px;
+            height: 40px;
+        }
+        .auto-style35 {
+            width: 175px;
+            height: 40px;
+        }
+        .auto-style36 {
+            width: 112px;
+            height: 40px;
+        }
+        .auto-style37 {
+            height: 40px;
+        }
     </style>
 </head>
 <body>
@@ -123,15 +143,15 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;</td>
+                    <td class="auto-style33"></td>
                     <td class="auto-style7" colspan="2">Eliminar Sucursal</td>
-                    <td class="auto-style27">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style30">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style34"></td>
+                    <td class="auto-style35"></td>
+                    <td class="auto-style36"></td>
+                    <td class="auto-style35"></td>
+                    <td class="auto-style37"></td>
+                    <td class="auto-style37"></td>
+                    <td class="auto-style37"></td>
                 </tr>
                 <tr>
                     <td class="auto-style14"></td>
@@ -165,9 +185,10 @@
                     <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style13">&nbsp;</td>
                     <td class="auto-style12">
-                        &nbsp;</td>
-                    <td class="auto-style27">
-                        &nbsp;</td>
+                        <asp:RequiredFieldValidator ID="revIdSucursalIng" runat="server" ControlToValidate="txtEliminar" ForeColor="#CC0000">Se debe ingresar un ID</asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="revidSucursalOnlyNum" runat="server" ControlToValidate="txtEliminar" ValidationExpression="^\d+$" ForeColor="#CC0000">Se debe ingresar un ID válido</asp:RegularExpressionValidator>
+                    </td>
+                    <td class="auto-style27">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style30">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>

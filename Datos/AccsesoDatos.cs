@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Data;
 
 
-namespace Datos
+namespace Datos 
 {
     public class AccsesoDatos
     {
