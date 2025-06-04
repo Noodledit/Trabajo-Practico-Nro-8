@@ -34,6 +34,8 @@ namespace GestionDeSucursales
         }
         protected void btnMostrarTodo_Click(object sender, EventArgs e)
         {
+            llenarTabla();
+            txtbBuscarSucursales.Text = string.Empty; 
         }
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
