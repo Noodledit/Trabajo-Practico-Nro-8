@@ -145,8 +145,7 @@
                         </asp:DropDownList>
                     </td>
                     <td class="auto-style10">
-                        <asp:RequiredFieldValidator ID="rfvProvincia" runat="server" ControlToValidate="ddlProvincia" ErrorMessage="La Provincia debe seleccionarse" ForeColor="Red"> 
-                        </asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="rfvProvincia" runat="server" ControlToValidate="ddlProvincia" ErrorMessage="La Provincia debe seleccionarse" ForeColor="Red" InitialValue="0"></asp:RequiredFieldValidator>
                     </td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style11">&nbsp;</td>

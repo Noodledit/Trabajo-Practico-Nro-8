@@ -47,5 +47,11 @@ namespace Gestor
             DaoSucursales dao = new DaoSucursales();
             return dao.ListarSucursales();
         }
+
+        public DataTable ListarSucursales(string idSucursal = null)
+        {
+            DaoSucursales dao = new DaoSucursales();
+            return dao.ListarSucursales(idSucursal);
+        }
     }
 }
