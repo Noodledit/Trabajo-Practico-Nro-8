@@ -165,7 +165,10 @@
                     <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style13">&nbsp;</td>
                     <td class="auto-style12">
-                        &nbsp;</td>
+                        <asp:RequiredFieldValidator ID="revIdSucursalIng" runat="server" ControlToValidate="txtEliminar" ForeColor="#CC0000">Se debe ingresar un ID</asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="revidSucursalOnlyNum" runat="server" ControlToValidate="txtEliminar" ValidationExpression="^\d+$" ForeColor="#CC0000">Se debe ingresar un ID válido</asp:RegularExpressionValidator>
+
+                        </td>
                     <td class="auto-style27">
                         &nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
