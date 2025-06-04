@@ -22,3 +22,9 @@ E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Entidades
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.dll
 E:\Usuarios\Noodledit\Desktop\Nueva carpeta (2)\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.pdb
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Entidades\bin\Debug\Entidades.dll
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Entidades\bin\Debug\Entidades.pdb
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.dll
+E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Entidades\obj\Debug\Entidades.pdb

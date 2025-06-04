@@ -48,7 +48,7 @@ namespace GestionDeSucursales
 
             if (resultado)
             {
-                lblMensaje.Text = "Sucursal agregada correctamente.";
+                lblMensaje.Text = "Sucursal fue agregada correctamente.";
                 lblMensaje.ForeColor = System.Drawing.Color.Green;
                 txtNombreSucursal.Text = string.Empty;
                 txtDescripcion.Text = string.Empty;

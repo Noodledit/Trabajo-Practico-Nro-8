@@ -177,7 +177,9 @@
                 </tr>
                 <tr>
                     <td class="auto-style9">&nbsp;</td>
-                    <td class="auto-style13">&nbsp;</td>
+                    <td class="auto-style13">
+                        <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+                    </td>
                     <td class="auto-style12">
                         &nbsp;</td>
                     <td class="auto-style27">
@@ -192,8 +194,7 @@
                 <tr>
                     <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style13">
-                        <asp:Label ID="lblMensaje" runat="server"></asp:Label>
-                    </td>
+                        &nbsp;</td>
                     <td class="auto-style12">
                         &nbsp;</td>
                     <td class="auto-style27">
