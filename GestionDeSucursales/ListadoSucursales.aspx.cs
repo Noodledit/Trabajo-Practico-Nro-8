@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlTypes;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -36,6 +37,22 @@ namespace GestionDeSucursales
         }
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
+
+            string idSucursal = txtbBuscarSucursales.Text.Trim();
+            GestorSucursales gestor = new GestorSucursales();
+
+            DataTable tabla;
+            if (!string.IsNullOrEmpty(idSucursal) && int.TryParse(idSucursal, out int id))
+            {
+                tabla = gestor.ListarSucursales(id.ToString());
+            }
+            else
+            {
+                tabla = gestor.ObtenerTabla();
+            }
+
+            gvSucursales.DataSource = tabla;
+            gvSucursales.DataBind();
 
         }
     }
