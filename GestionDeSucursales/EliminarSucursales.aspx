@@ -152,7 +152,7 @@
                         <asp:TextBox ID="txtEliminar" runat="server"></asp:TextBox>
                     </td>
                     <td class="auto-style29">
-                        <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" />
+                        <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" OnClick="btnEliminar_Click" />
                     </td>
                     <td class="auto-style24"></td>
                     <td class="auto-style32"></td>
