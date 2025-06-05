@@ -36,13 +36,6 @@ namespace Datos
                     return null;
                 }
             }
-            finally
-            {
-                if (cnxn != null && cnxn.State == ConnectionState.Open)
-                {
-                    cnxn.Close();
-                }
-            }
         }
 
 
