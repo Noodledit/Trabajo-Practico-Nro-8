@@ -77,14 +77,25 @@
             height: 1px;
         }
         .auto-style30 {
-            width: 112px;
+            width: 101px;
         }
         .auto-style31 {
-            width: 112px;
+            width: 101px;
             height: 11px;
         }
         .auto-style32 {
-            width: 112px;
+            width: 101px;
+            height: 1px;
+        }
+        .auto-style33 {
+            width: 197px;
+        }
+        .auto-style34 {
+            width: 197px;
+            height: 11px;
+        }
+        .auto-style35 {
+            width: 197px;
             height: 1px;
         }
     </style>
@@ -99,7 +110,7 @@
                         <asp:HyperLink ID="hlAgregarSucursal" runat="server" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
                     </td>
                     <td class="auto-style27"></td>
-                    <td class="auto-style5">
+                    <td class="auto-style33">
                         <asp:HyperLink ID="hlListadoSucursal" runat="server" NavigateUrl="~/ListadoSucursales.aspx">Listado de Sucursales</asp:HyperLink>
                     </td>
                     <td class="auto-style30"></td>
@@ -115,7 +126,7 @@
                     <td class="auto-style13">&nbsp;</td>
                     <td class="auto-style12">&nbsp;</td>
                     <td class="auto-style27">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style33">&nbsp;</td>
                     <td class="auto-style30">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
@@ -126,7 +137,7 @@
                     <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style7" colspan="2">Eliminar Sucursal</td>
                     <td class="auto-style27">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style33">&nbsp;</td>
                     <td class="auto-style30">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
@@ -138,7 +149,7 @@
                     <td class="auto-style15"></td>
                     <td class="auto-style16"></td>
                     <td class="auto-style28"></td>
-                    <td class="auto-style18"></td>
+                    <td class="auto-style34"></td>
                     <td class="auto-style31"></td>
                     <td class="auto-style18"></td>
                     <td class="auto-style20"></td>
@@ -154,7 +165,9 @@
                     <td class="auto-style29">
                         <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" OnClick="btnEliminar_Click" />
                     </td>
-                    <td class="auto-style24"></td>
+                    <td class="auto-style35">
+                        <asp:Label ID="lblEstasSeguro" runat="server" Visible="False"></asp:Label>
+                    </td>
                     <td class="auto-style32"></td>
                     <td class="auto-style24"></td>
                     <td class="auto-style26"></td>
@@ -171,7 +184,11 @@
                         </td>
                     <td class="auto-style27">
                         &nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style33">
+                        <asp:Button ID="btnAceptar" runat="server" OnClick="btnAceptar_Click" Text="Aceptar" Visible="False" Width="77px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="btnCancelar" runat="server" OnClick="btnCancelar_Click" Text="Cancelar" Visible="False" />
+                    </td>
                     <td class="auto-style30">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
@@ -187,7 +204,7 @@
                         &nbsp;</td>
                     <td class="auto-style27">
                         &nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style33">&nbsp;</td>
                     <td class="auto-style30">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
@@ -202,7 +219,7 @@
                         &nbsp;</td>
                     <td class="auto-style27">
                         &nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style33">&nbsp;</td>
                     <td class="auto-style30">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
@@ -216,7 +233,7 @@
                         &nbsp;</td>
                     <td class="auto-style27">
                         &nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style33">&nbsp;</td>
                     <td class="auto-style30">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
@@ -228,7 +245,7 @@
                     <td class="auto-style13">&nbsp;</td>
                     <td class="auto-style12">&nbsp;</td>
                     <td class="auto-style27">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style33">&nbsp;</td>
                     <td class="auto-style30">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>

@@ -1,6 +1,7 @@
 ﻿using Gestor;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -19,6 +20,20 @@ namespace GestionDeSucursales
 
         protected void btnEliminar_Click(object sender, EventArgs e)
         {
+            Mostrar(txtEliminar.Text);
+        }
+
+        protected void Mostrar(string IdSucursal)
+        {
+            lblEstasSeguro.Visible = true;
+            lblEstasSeguro.Text = "¿Estás seguro de que deseas eliminar la sucursal N " + IdSucursal + "?";
+            btnCancelar.Visible = true;
+            btnAceptar.Visible = true;
+
+        }
+
+        protected void btnAceptar_Click(object sender, EventArgs e)
+        {
             GestorSucursales gestorSuc = new GestorSucursales();
             try
             {
@@ -34,7 +49,20 @@ namespace GestionDeSucursales
             catch (Exception ex)
             {
                 lblMensaje.Text = "Error al eliminar la sucursal: " + ex.Message;
-            }
+            } 
+            txtEliminar.Text = string.Empty; 
+            lblEstasSeguro.Visible = false;
+            btnCancelar.Visible = false;
+            btnAceptar.Visible = false;
+
+        }
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+            txtEliminar.Text = string.Empty;
+            lblEstasSeguro.Visible = false;
+            btnCancelar.Visible = false;
+            btnAceptar.Visible = false;
         }
     }
 }
