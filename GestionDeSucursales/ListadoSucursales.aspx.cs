@@ -34,27 +34,35 @@ namespace GestionDeSucursales
         }
         protected void btnMostrarTodo_Click(object sender, EventArgs e)
         {
+            llenarTabla();
+            txtbBuscarSucursales.Text = string.Empty;
+            lblNoResultados.Text = string.Empty;
         }
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
-
             string idSucursal = txtbBuscarSucursales.Text.Trim();
-            GestorSucursales gestor = new GestorSucursales();
+            DataTable tabla = null;
 
-            DataTable tabla;
             if (!string.IsNullOrEmpty(idSucursal) && int.TryParse(idSucursal, out int id))
             {
                 tabla = gestor.ListarSucursales(id.ToString());
-            }
-            else
-            {
-                tabla = gestor.ObtenerTabla();
+
+                if (tabla.Rows.Count > 0)
+                {
+                    lblNoResultados.Text = string.Empty;
+                }
+                else
+                {
+                    lblNoResultados.Text = "No se pudo encontrar la sucursal.";
+                }
             }
 
-            gvSucursales.DataSource = tabla;
-            gvSucursales.DataBind();
+            if (tabla != null)
+            {
+                gvSucursales.DataSource = tabla;
+                gvSucursales.DataBind();
+            }
 
         }
     }
-
 }

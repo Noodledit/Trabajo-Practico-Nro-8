@@ -15,9 +15,10 @@ namespace Datos
 
         private SqlConnection connection()
         {
+            SqlConnection cnxn = null;
             try
             {
-                SqlConnection cnxn = new SqlConnection(connectionString);
+                cnxn = new SqlConnection(connectionString);
                 cnxn.Open();
                 return cnxn;
             }
@@ -25,8 +26,8 @@ namespace Datos
             {
                 try
                 {
-                    string AuxConnectionString = connectionString.Replace("\\sqlexpress","");
-                    SqlConnection cnxn = new SqlConnection(connectionString);
+                    string AuxConnectionString = connectionString.Replace("\\sqlexpress", "");
+                    cnxn = new SqlConnection(AuxConnectionString);
                     cnxn.Open();
                     return cnxn;
                 }
@@ -35,7 +36,15 @@ namespace Datos
                     return null;
                 }
             }
+            finally
+            {
+                if (cnxn != null && cnxn.State == ConnectionState.Open)
+                {
+                    cnxn.Close();
+                }
+            }
         }
+
 
         private SqlCommand sqlCommand (string query, SqlConnection conexion)
         {

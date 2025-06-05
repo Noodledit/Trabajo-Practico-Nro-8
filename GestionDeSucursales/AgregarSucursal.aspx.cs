@@ -44,22 +44,31 @@ namespace GestionDeSucursales
             int provincia = Convert.ToInt32(ddlProvincia.SelectedValue);
             string direccion = TxtDireccion.Text.Trim();
 
-            bool resultado = gestor.AgregarSucursal(nombre, descripcion, provincia, direccion);
+            try
+            {
+                bool resultado = gestor.AgregarSucursal(nombre, descripcion, provincia, direccion);
 
-            if (resultado)
-            {
-                lblMensaje.Text = "Sucursal fue agregada correctamente.";
-                lblMensaje.ForeColor = System.Drawing.Color.Green;
-                txtNombreSucursal.Text = string.Empty;
-                txtDescripcion.Text = string.Empty;
-                TxtDireccion.Text = string.Empty;
-                ddlProvincia.SelectedIndex = 0;
+                if (resultado)
+                {
+                    lblMensaje.Text = "Sucursal agregada correctamente.";
+                    lblMensaje.ForeColor = System.Drawing.Color.Green;
+                    txtNombreSucursal.Text = string.Empty;
+                    txtDescripcion.Text = string.Empty;
+                    TxtDireccion.Text = string.Empty;
+                    ddlProvincia.SelectedIndex = 0;
+                }
+                else
+                {
+                    lblMensaje.Text = "La sucursal ya existe o ocurrió un error.";
+                    lblMensaje.ForeColor = System.Drawing.Color.Red;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                lblMensaje.Text = "La sucursal ya existe u ocurrió un error.";
+                lblMensaje.Text = "Error al agregar la sucursal: " + ex.Message;
                 lblMensaje.ForeColor = System.Drawing.Color.Red;
             }
+
         }
     }
 }

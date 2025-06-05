@@ -75,3 +75,14 @@ E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Traba
 E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
 E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
 E:\Usuarios\Noodledit\Desktop\Tup\Tercer Cuatrimestre\Programacion III\TPs\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Gestor.dll
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Gestor.pdb
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Datos.dll
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Entidades.dll
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Datos.pdb
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Entidades.pdb
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
+C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb
