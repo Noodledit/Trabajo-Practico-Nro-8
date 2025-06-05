@@ -6,6 +6,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
+using Entidades;
 
 namespace GestionDeSucursales
 {
@@ -20,16 +22,28 @@ namespace GestionDeSucursales
 
         protected void btnEliminar_Click(object sender, EventArgs e)
         {
-            Mostrar(txtEliminar.Text);
+            GestorSucursales gestorSuc = new GestorSucursales();
+            DataTable table = gestorSuc.ListarSucursales(txtEliminar.Text);
+
+            if (table.Rows.Count != 0)
+            {
+                string nombreSucursal = Convert.ToString(table.Rows[0][1]);
+                Mostrar(txtEliminar.Text, nombreSucursal);
+            }
+            else
+            {
+                lblMensaje.Text = "El ID ingresado no corresponde a una sucursal registrada.";
+                lblMensaje.ForeColor = System.Drawing.Color.Red;
+                return;
+            }
         }
 
-        protected void Mostrar(string IdSucursal)
-        {
+        protected void Mostrar(string IdSucursal, string nombreSucursal)
+        {            
             lblEstasSeguro.Visible = true;
-            lblEstasSeguro.Text = "¿Estás seguro de que deseas eliminar la sucursal N " + IdSucursal + "?";
+            lblEstasSeguro.Text = "¿Estás seguro de que deseas eliminar la sucursal: " + nombreSucursal + "?";
             btnCancelar.Visible = true;
             btnAceptar.Visible = true;
-
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)
@@ -54,7 +68,6 @@ namespace GestionDeSucursales
             lblEstasSeguro.Visible = false;
             btnCancelar.Visible = false;
             btnAceptar.Visible = false;
-
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)

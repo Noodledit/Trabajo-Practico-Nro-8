@@ -27,7 +27,6 @@ namespace Gestor
                 return true;
             else
                 return false;
-
         }
         public bool EliminarSucursal(int idSucursal)
         {

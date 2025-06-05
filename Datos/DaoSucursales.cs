@@ -35,10 +35,10 @@ namespace Datos
         public int InsertarSucursal(Sucursal sucursal)
         {
             string query = "INSERT INTO Sucursal (Id_ProvinciaSucursal, NombreSucursal, DescripcionSucursal, DireccionSucursal) " +
-                           "VALUES (@IdProvinciaSucursal, @NombreSucursal, @DescripcionSucursal, @DireccionSucursal)"; // Modifique nombres de columnas para que coincidan con la base de datos
+                           "VALUES (@IdProvincia, @NombreSucursal, @DescripcionSucursal, @DireccionSucursal)";
             SqlParameter[] parametros = new SqlParameter[]
             {
-        new SqlParameter("@IdProvinciaSucursal", sucursal.getIdProvinciaSucursal()),
+        new SqlParameter("@IdProvincia", sucursal.getIdProvinciaSucursal()),
         new SqlParameter("@NombreSucursal", sucursal.getNombre()),
         new SqlParameter("@DescripcionSucursal", sucursal.getDescripcion()),
         new SqlParameter("@DireccionSucursal", sucursal.getDireccion())
