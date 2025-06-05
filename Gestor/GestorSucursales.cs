@@ -52,5 +52,11 @@ namespace Gestor
             DaoSucursales dao = new DaoSucursales();
             return dao.ListarSucursales(idSucursal);
         }
+        public bool ExisteSucursal__(string nombre, string direccion, int provincia)
+        {
+            DaoSucursales dao = new DaoSucursales();
+            return dao.ExisteSucursal(nombre, direccion, provincia);
+        }
+
     }
 }

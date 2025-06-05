@@ -46,6 +46,17 @@ namespace GestionDeSucursales
 
             try
             {
+                if (gestor.ExisteSucursal__(nombre, direccion, provincia))
+                {
+                    lblMensaje.Text = "Ya existe una sucursal con ese nombre y dirección.";
+                    lblMensaje.ForeColor = System.Drawing.Color.Red;
+                    return;
+                }
+                else
+                {
+                    lblMensaje.Text = string.Empty;
+                }
+
                 bool resultado = gestor.AgregarSucursal(nombre, descripcion, provincia, direccion);
 
                 if (resultado)

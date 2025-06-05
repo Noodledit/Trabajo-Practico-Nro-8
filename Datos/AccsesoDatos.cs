@@ -94,5 +94,28 @@ namespace Datos
                 return null;
             }
         }
+
+        public object EjecutarConsultaEscalar(string consulta, SqlParameter[] parametros)
+        {
+            using (SqlConnection conexion = new SqlConnection(connectionString))
+            {
+                SqlCommand comando = new SqlCommand(consulta, conexion);
+                comando.Parameters.AddRange(parametros);
+
+                SqlDataAdapter adaptador = new SqlDataAdapter(comando);
+                DataTable tabla = new DataTable();
+                adaptador.Fill(tabla);
+
+                if (tabla.Rows.Count > 0)
+                {
+                    return tabla.Rows[0][0]; 
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
+
     }
 }

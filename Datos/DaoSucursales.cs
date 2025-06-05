@@ -67,5 +67,23 @@ namespace Datos
 
             return ds.EjecutarConsultaDataAdapter(query, parametro);
         }
+
+        public bool ExisteSucursal(string nombre, string direccion, int provincia)
+        {
+            string query = "SELECT COUNT(*) FROM Sucursal WHERE NombreSucursal = @NombreSucursal AND DireccionSucursal = @DireccionSucursal AND Id_ProvinciaSucursal= @IdProvinciaSucursal";
+
+            SqlParameter[] parametros = new SqlParameter[]
+            {
+                new SqlParameter("@NombreSucursal", nombre),
+                new SqlParameter("@DireccionSucursal", direccion),
+                new SqlParameter("@IdProvinciaSucursal",provincia)
+
+            };
+
+            object resultado = ds.EjecutarConsultaEscalar(query, parametros);
+            int cantidad = Convert.ToInt32(resultado);
+            return cantidad > 0;
+        }
+
     }
 }
