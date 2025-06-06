@@ -15,6 +15,7 @@ namespace GestionDeSucursales
     public partial class ListadoSucursales : System.Web.UI.Page
     {
         private GestorSucursales gestor = new GestorSucursales();
+        private GestorProvincias gestorProvincias = new GestorProvincias();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -22,7 +23,9 @@ namespace GestionDeSucursales
 
             if (!IsPostBack)
             {
+            LlenarProvincias();
             llenarTabla();
+
             }
         }
         // Cree el metodo llenarTabla para que se llene la tabla al cargar la pagina.
@@ -37,6 +40,7 @@ namespace GestionDeSucursales
             llenarTabla();
             txtbBuscarSucursales.Text = string.Empty;
             lblNoResultados.Text = string.Empty;
+       
         }
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
@@ -63,6 +67,24 @@ namespace GestionDeSucursales
                 gvSucursales.DataBind();
             }
 
+        }
+
+        public void LlenarProvincias()
+        {
+            DataTable datatable = gestorProvincias.ObtenerProvincias();
+            DlProvincias.DataSource = datatable;
+            DlProvincias.DataBind();
+
+        }
+
+        protected void btnProvincia_Command(object sender, CommandEventArgs e)
+        {
+            if (e.CommandName == "ComandProvinciaS")
+            {
+                string idProvincia = e.CommandArgument.ToString();
+                gvSucursales.DataSource = gestor.ObtenerSucursalesPorProvincia(idProvincia);
+                gvSucursales.DataBind();
+            }
         }
     }
 }

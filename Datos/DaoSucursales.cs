@@ -1,9 +1,10 @@
-﻿using System.Text;
-using System.Threading.Tasks;
-using System.Data;
-using Entidades;
-using System.Data.SqlClient;
+﻿using Entidades;
 using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Datos
 {
@@ -83,6 +84,29 @@ namespace Datos
             object resultado = ds.EjecutarConsultaEscalar(query, parametros);
             int cantidad = Convert.ToInt32(resultado);
             return cantidad > 0;
+        }
+
+
+        public DataTable ListarSucursalesPorProvincia(string idProvincia = null)
+        {
+            string query = "SELECT Id_Sucursal, NombreSucursal, DescripcionSucursal, DescripcionProvincia, DireccionSucursal " +
+                "FROM Sucursal " +
+                "INNER JOIN Provincia " +
+                "ON Sucursal.Id_ProvinciaSucursal = Provincia.Id_Provincia";
+
+            SqlParameter parametro = new SqlParameter();
+
+            if (idProvincia != null)
+            {
+                query += " WHERE Sucursal.Id_ProvinciaSucursal = @IdProvincia";
+                parametro = new SqlParameter("@IdProvincia", idProvincia);
+            }
+            else
+            {
+                parametro = null;
+            }
+
+            return ds.EjecutarConsultaDataAdapter(query, parametro);
         }
 
     }

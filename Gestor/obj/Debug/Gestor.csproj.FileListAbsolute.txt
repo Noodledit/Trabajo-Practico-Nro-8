@@ -86,3 +86,14 @@ C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj
 C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
 C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
 C:\Users\user\Desktop\TP 8\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Gestor.dll
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Gestor.pdb
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Datos.dll
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Entidades.dll
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Datos.pdb
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\bin\Debug\Entidades.pdb
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.AssemblyReference.cache
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.CoreCompileInputs.cache
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.csproj.Up2Date
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.dll
+C:\Repositorios GitHub\Trabajo-Practico-Nro-8\Gestor\obj\Debug\Gestor.pdb

@@ -57,6 +57,11 @@ namespace Gestor
             DaoSucursales dao = new DaoSucursales();
             return dao.ExisteSucursal(nombre, direccion, provincia);
         }
+        public DataTable ObtenerSucursalesPorProvincia(string idProvincia = null)
+        {
+            DaoSucursales ds = new DaoSucursales();
+            return ds.ListarSucursalesPorProvincia(idProvincia);
+        }
 
     }
 }

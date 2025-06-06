@@ -15,6 +15,9 @@ namespace Datos
             string query = "SELECT Id_Provincia, DescripcionProvincia FROM Provincia";
             return ds.EjecutarConsultaDataAdapter(query);
         }
+
+        
+
     }
 }
 

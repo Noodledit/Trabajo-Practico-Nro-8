@@ -60,15 +60,6 @@ namespace GestionDeSucursales
         protected global::System.Web.UI.WebControls.Label lblListadoSucursales;
 
         /// <summary>
-        /// Control lblNoResultados.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNoResultados;
-
-        /// <summary>
         /// Control lblBuscarIdSucursal.
         /// </summary>
         /// <remarks>
@@ -87,15 +78,6 @@ namespace GestionDeSucursales
         protected global::System.Web.UI.WebControls.TextBox txtbBuscarSucursales;
 
         /// <summary>
-        /// Control revIdSucursal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revIdSucursal;
-
-        /// <summary>
         /// Control btnFiltrar.
         /// </summary>
         /// <remarks>
@@ -105,6 +87,15 @@ namespace GestionDeSucursales
         protected global::System.Web.UI.WebControls.Button btnFiltrar;
 
         /// <summary>
+        /// Control revIdSucursal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revIdSucursal;
+
+        /// <summary>
         /// Control btnMostrarTodo.
         /// </summary>
         /// <remarks>
@@ -112,6 +103,24 @@ namespace GestionDeSucursales
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnMostrarTodo;
+
+        /// <summary>
+        /// Control lblNoResultados.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblNoResultados;
+
+        /// <summary>
+        /// Control DlProvincias.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DataList DlProvincias;
 
         /// <summary>
         /// Control gvSucursales.
